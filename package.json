@@ -1,5 +1,5 @@
 {
-  "name": "@meta/lobster",
+  "name": "@metaverse-dc/lobster",
   "version": "1.0.0",
   "description": "Workflow runtime for AI agents — deterministic pipelines with approval gates. Forked from @clawdbot/lobster with security hardening for CEO OS.",
   "type": "module",
