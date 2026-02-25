@@ -1,7 +1,7 @@
 {
-  "name": "@clawdbot/lobster",
-  "version": "2026.1.21-1",
-  "description": "Workflow runtime for AI agents - deterministic pipelines with approval gates",
+  "name": "@meta/lobster",
+  "version": "1.0.0",
+  "description": "Workflow runtime for AI agents — deterministic pipelines with approval gates. Forked from @clawdbot/lobster with security hardening for CEO OS.",
   "type": "module",
   "bin": {
     "lobster": "bin/lobster.js"
@@ -43,17 +43,22 @@
     "approval",
     "pipeline",
     "lobster",
-    "openclaw"
+    "openclaw",
+    "ceo-os",
+    "metaverse-digital-creative"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openclaw/lobster.git"
+    "url": "git+https://github.com/metaverse-digital-creative/lobster.git"
   },
   "bugs": {
-    "url": "https://github.com/openclaw/lobster/issues"
+    "url": "https://github.com/metaverse-digital-creative/lobster/issues"
   },
-  "homepage": "https://github.com/openclaw/lobster#readme",
+  "homepage": "https://github.com/metaverse-digital-creative/lobster#readme",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "ajv": "^8.17.1",
     "yaml": "^2.8.2"
